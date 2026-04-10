@@ -1,17 +1,3 @@
----
-license: mit
-language:
-- en
-metrics:
-- f1
-- accuracy
-base_model:
-- MIT/ast-finetuned-audioset-10-10-0.4593
-pipeline_tag: audio-classification
-tags:
-- music
-- audio-transformers
----
 
 # Audio Spectrogram Transformer (AST) for Music Genre Classification
 
