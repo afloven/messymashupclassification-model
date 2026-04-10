@@ -1,3 +1,4 @@
+link to the model + safetensors file -> [Clickable Text](https://huggingface.co/afloven/messymashupclassifier/tree/main)
 
 # Audio Spectrogram Transformer (AST) for Music Genre Classification
 
