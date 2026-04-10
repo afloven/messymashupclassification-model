@@ -47,16 +47,6 @@ The model is trained to classify audio into one of the following 10 categories:
 
 ## How to Use
 
-You can use this model directly with the Hugging Face `transformers` library.
+Visit my huggingfaces spaces where you can check what genre your .wav file is!
 
-```python
-from transformers import pipeline
-
-# Load the model and preprocessor
-classifier = pipeline("audio-classification", model="afloven/messymashupclassifier")
-
-# Predict the genre of an audio file
-# Make sure your audio is sampled at 16,000 Hz
-results = classifier("path_to_your_audio_file.wav")
-
-print(results)
+[click here!](https://huggingface.co/spaces/afloven/messymashupclassification-demo)
